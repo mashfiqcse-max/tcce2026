@@ -1,0 +1,130 @@
+{
+ "K": 77,
+ "THR": 0.2655065357685089,
+ "unsup_meanF1": 0.8193786990414773,
+ "unsup_meanAUC": 0.9801429693197911,
+ "sup_meanF1": 0.8285089937234545,
+ "event_duration_s": {
+  "median": 270.0,
+  "max": 530.0,
+  "min": 130.0
+ },
+ "signed_vs_magnitude_disagree": {
+  "n": 976,
+  "disagree": 12
+ },
+ "occlusion_vs_posthoc_agree": {
+  "n": 941,
+  "agree": 911
+ },
+ "alert_breakdown": {
+  "alerts": 941,
+  "normal": 106,
+  "attack": 835,
+  "single": 647,
+  "multi": 188,
+  "nolabel": 0
+ },
+ "multi_subsystem": {
+  "n": 188,
+  "top1_in_labelled": 188,
+  "top2_cover_all": 139
+ },
+ "unconditional_detected_attack_windows": {
+  "n": 835,
+  "hit": 822
+ },
+ "all_attack_windows": {
+  "n": 1184,
+  "hit": 1132
+ },
+ "undetected_attack_windows": {
+  "n": 349,
+  "hit": 310
+ },
+ "missed_events": [
+  {
+   "file": 2,
+   "windows": 48,
+   "dur_s": 530.0,
+   "subsystems": "1",
+   "max_score_over_thr": 0.9403547048568726
+  },
+  {
+   "file": 2,
+   "windows": 21,
+   "dur_s": 260.0,
+   "subsystems": "1",
+   "max_score_over_thr": 0.6397159099578857
+  },
+  {
+   "file": 2,
+   "windows": 18,
+   "dur_s": 230.0,
+   "subsystems": "3",
+   "max_score_over_thr": 0.21434533596038818
+  },
+  {
+   "file": 2,
+   "windows": 18,
+   "dur_s": 230.0,
+   "subsystems": "3",
+   "max_score_over_thr": 0.178490549325943
+  }
+ ],
+ "incident_localisation": [
+  {
+   "method": "Time only",
+   "attack_incidents": 46,
+   "correct_subsystem": 46
+  },
+  {
+   "method": "Grouped cosine (ours)",
+   "attack_incidents": 49,
+   "correct_subsystem": 49
+  }
+ ],
+ "onset": {
+  "n": 46,
+  "hit": 40,
+  "multi_events": 14,
+  "multi_hit": 8,
+  "single_events": 32,
+  "single_hit": 32,
+  "ties": 11,
+  "hit_active": 44,
+  "multi_hit_active": 12,
+  "median_latency_s": 10.0
+ },
+ "boot": {
+  "unsup_F1": [
+   0.7606358533171396,
+   0.8642929236046673
+  ],
+  "sup_F1": [
+   0.795850590520785,
+   0.8590221528614055
+  ],
+  "diff_sup_minus_unsup": [
+   -0.027030757379205732,
+   0.052098318235605866
+  ],
+  "diff_point": 0.009130294681977236,
+  "per_file_diff": [
+   0.059868838586841555,
+   0.006738794763903377,
+   -0.00895789787996426,
+   0.0097945532728142,
+   -0.02179281533370858
+  ],
+  "loc_unsup": [
+   0.9528691366145476,
+   0.9970595727373919
+  ],
+  "loc_events": 43
+ },
+ "coverage_wilson": [
+  0.811614974549363,
+  0.9684509967442093
+ ]
+}

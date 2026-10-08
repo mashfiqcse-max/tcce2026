@@ -1,0 +1,5 @@
+incidents,merged_inc,split,one2one,events,method
+50,7,0,30,46,Time only
+100,4,11,28,46,Dominant subsystem
+93,4,8,31,46,Grouped cosine (ours)
+290,5,39,7,46,Ungrouped cosine

@@ -1,0 +1,79 @@
+{
+ "K": 77,
+ "meanF1": 0.819,
+ "alerts": 941,
+ "time": 60,
+ "cos": 64,
+ "cosF": 200,
+ "fig6_events": [
+  {
+   "file": 1,
+   "event": 0,
+   "time": 1,
+   "grouped": 1,
+   "ungrouped": 1
+  },
+  {
+   "file": 4,
+   "event": 3,
+   "time": 1,
+   "grouped": 1,
+   "ungrouped": 9
+  },
+  {
+   "file": 4,
+   "event": 1,
+   "time": 1,
+   "grouped": 1,
+   "ungrouped": 7
+  },
+  {
+   "file": 3,
+   "event": 6,
+   "time": 1,
+   "grouped": 2,
+   "ungrouped": 5
+  }
+ ],
+ "F1": {
+  "PCA reconstruction": {
+   "File 1": 0.871,
+   "File 2": 0.682,
+   "File 3": 0.832,
+   "File 4": 0.891,
+   "File 5": 0.82
+  },
+  "Isolation Forest": {
+   "File 1": 0.316,
+   "File 2": 0.234,
+   "File 3": 0.507,
+   "File 4": 0.733,
+   "File 5": 0.527
+  },
+  "LightGBM (supervised)": {
+   "File 1": 0.931,
+   "File 2": 0.688,
+   "File 3": 0.824,
+   "File 4": 0.901,
+   "File 5": 0.799
+  }
+ },
+ "beeswarm_features": [
+  "P1_PCV01D|dmean",
+  "P1_LCV01D|dmean",
+  "P2_CO_rpm|std",
+  "P2_SIT01|std",
+  "P1_LIT01|dmean",
+  "P2_SIT01|dmean",
+  "P2_VXT03|mean",
+  "P1_FCV03D|dmean",
+  "P1_PCV01Z|dmean",
+  "P1_LCV01D|mean"
+ ],
+ "shap_group_share": {
+  "P1": 0.6324112165906709,
+  "P2": 0.3119610087041588,
+  "P3": 0.028688025714401055,
+  "P4": 0.026939748990769195
+ }
+}

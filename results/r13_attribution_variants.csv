@@ -1,0 +1,8 @@
+variant,n,acc
+"Unsup, grouped error (P1-P3)",647,0.9799072642967542
+"Unsup, grouped error incl. P4",647,0.9799072642967542
+"Unsup, a priori group occlusion",647,0.9613601236476044
+"Sup, signed TreeSHAP, path dependent",669,0.9910313901345291
+"Sup, magnitude TreeSHAP, path dependent",669,0.9940209267563528
+"Sup, signed TreeSHAP, interventional",669,0.9940209267563528
+"Sup, signed TreeSHAP incl. P4",669,0.9910313901345291
